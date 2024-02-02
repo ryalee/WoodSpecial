@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #191e22;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  padding: 30px 0;
+}
+
+.menuItem {
+  padding: 0 10px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 12pt;
+} 
+
+.hero img {
+  width: 400px;
+  display: none;
+}
+
+.heroContent {
+  background-color: #212930;
+  width: 400px;
+  height: 350px;
+  margin-top: 60px;
+}
+
+.heroContent h2 {
+  padding: 20px;
+  width: 180px;
+  font-size: 28pt;
+  color: #fff;
+}
+
+.heroContent p {
+  color: #fff;
+  font-size: 11pt;
+  width: 250px;
+  padding: 0 20px 30px 20px;
+}
+
+.heroContent input {
+  background-color: #191e22;
+  border: 1px solid;
+  color: #fff;
+  padding: 15px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.heroContent img {
+  display: block;
+  width: 120px;
+  margin-top: -324px;
+  margin-left: 250px;
+}
+
+.ourProducts h1 {
+  color: #fff;
+  font-size: 22pt;
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.catalog {
+  background-color: #212930;
+  border-radius: 30px;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+}
+
+.card1 .cardText,
+.card3 .cardText {
+  margin-left: 20px;
+}
+
+.cardText {
+  font-size: 11pt;
+  color: #fff;
+}
+
+.cardText a {
+  color: #5ca36b;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.card img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.materials {
+  margin-top: 50px;
+}
+
+.materials h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 22pt;
+}
+
+.materialsGrid {
+  background-image: url(images/materials/fundo.jpg);
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 30px;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.materialCard img {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+}
+
+.materialCard {
+  display: flex;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.materialCard h3 {
+  color: #fff;
+  position: absolute;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.backImg {
+  position: absolute;
+  width: 200px;
+}
+
+.contact {
+  background-color: #212930;
+  padding: 20px;
+  margin-top: 80px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.contact h1 {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 22pt;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact input {
+  background-color: #33404b;
+  padding: 12px;
+  border: none;
+  color: #fff;
+}
+
+.contact input::placeholder {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.contact textarea {
+  background-color: #33404b;
+  border: none;
+}
+
+.contact textarea::placeholder {
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.socials {
+  width: 60%;
+  padding: 10px;
+  margin-left: 60px;
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socials i {
+  font-size: 20pt;
+  color: #ddd;
+}
+
+footer p {
+  background-color: #212930;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 11pt;
+  color: #fff;
+}
+
+footer p a {
+  color: #5fb65f;
+}
